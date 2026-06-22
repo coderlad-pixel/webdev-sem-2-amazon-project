@@ -1,0 +1,375 @@
+* {
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-logo {
+    height: 50px;
+    width: 115px;
+}
+
+.amazonlogo {
+    height: 50px;
+    width: 100px;
+    background-image: url("amazonlogo.png");
+    background-size: contain;
+}
+
+.border:hover {
+    border: 1.4px solid white
+        /* this will create a border effect when cursor will go on logo */
+}
+
+/* BOX 2 */
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.8rem;
+    margin-left: 20px;
+
+}
+
+.add-sec {
+    font-size: 1rem;
+}
+
+.locationlogo {
+    display: flex;
+    /* this helps to make location logo and india in same line */
+}
+
+/* BOX 3 */
+
+.nav-search {
+    display: flex;
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.option {
+    background-color: #E6E6E6;
+    width: 50px;
+    text-align: center;
+    border: none;
+}
+
+.searchbar {
+    width: 420px;
+    border: none;
+}
+
+.search-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 45px;
+    background-color: darkorange;
+    font-size: 1.5rem;
+}
+
+.nav-search:hover {
+    border: 2px solid orange
+}
+
+/* BOX 4 */
+
+.country {
+    width: 60px;
+    display: flex;
+    align-items: flex-end;
+    gap: 2px;
+
+}
+
+.country-img {
+    width: 40px;
+    height: 16px;
+    background-image: url("Flag_of_India.png");
+    background-size: cover;
+}
+
+.india {
+    font-size: 15px;
+    font-weight: 800;
+}
+
+
+/* BOX 5 */
+
+.navone {
+    font-size: 0.7rem;
+}
+
+.navtwo {
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+.cartlogo {
+    font-size: 1.8rem;
+}
+
+.navcart {
+    display: flex;
+    align-items: end;
+}
+
+/* PANEL */
+.panel {
+    height: 40px;
+    background-color: #1e2626;
+    display: flex;
+    align-items: center;
+    font-family: Arial;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+
+}
+
+.all-logo {
+    display: flex;
+    width: 60px;
+}
+
+.panel-text {
+    width: 70%;
+    display: flex;
+    gap: 20px;
+
+}
+
+.panel-deals {
+    font-weight: 700;
+}
+
+/* HERO SECTION */
+a {
+    text-decoration: none;
+}
+
+.hero-section {
+    display: flex;
+    background-image: url("heroimage.jpeg");
+    background-size: cover;
+    height: 400px;
+    justify-content: center;
+    align-items: end;
+}
+
+.text {
+    background-color: white;
+    height: 40px;
+    width: 1000px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+
+}
+
+.text a {
+    color: rgb(61, 163, 227);
+}
+
+/* iska matlab text ke andar jo anchor tag hai */
+
+
+/* shop section */
+
+.shop-sec {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #f9daba;
+}
+
+.box {
+    width: 23%;
+    height: 400px;
+    background-color: white;
+    padding: 20px 0px 15px 0px;
+    margin-top: 15px;
+}
+
+.text1 {
+    margin-left: 20px;
+}
+
+.link1 {
+    margin-left: 20px;
+}
+
+.img1 {
+    background-image: url("img1.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img2 {
+    background-image: url("img2.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img3 {
+    background-image: url("img3.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img4 {
+    background-image: url("img4.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img5 {
+    background-image: url("img5.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img6 {
+    background-image: url("img6.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img7 {
+    background-image: url("img7.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+.img8 {
+    background-image: url("img8.jpeg");
+    background-size: cover;
+    height: 300px;
+    margin: 20px
+}
+
+/* Footer */
+footer {
+    margin-top: 20px;
+}
+
+.panel1 {
+    height: 50px;
+    background-color: #37475A;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.panel2 {
+    background-color: #232f2e;
+    height: 300px;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul a {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 15px;
+}
+
+.panel2 a {
+    color: white;
+}
+
+.head1 {
+    font-weight: 800;
+}
+
+ul {
+    margin-top: 20px;
+}
+
+.footer-img {
+    background-image: url("amazonlogo.png");
+    background-size: cover;
+    height: 30px;
+    width: 80px;
+}
+
+.panel3 {
+    height: 80px;
+    background-color: #232f2e;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 1px solid white
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+    background-image: url("amazonlogo.png");
+    background-size: contain;
+}
+
+.one {
+    height: 30px;
+    width: 130px;
+    background-color: #232f2e;
+    color: white;
+}
+
+.two {
+    height: 35px;
+    width: 160px;
+    background-color: #232f2e;
+    color: white;
+}
+
+.three {
+    height: 30px;
+    width: 140px;
+    background-color: #232f2e;
+    color: white;
+}
+
+.selecto {
+    width: 600px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.foot-panel4 {
+    padding: 20px;
+    background-color: #0f1111;
+    color: #cccccc;
+    height: 80px;
+    text-align: center;
+}
+
+.copyright {
+    margin-top: 5px;
+}
+
+.pages {
+    margin-left: 10px;
+}
